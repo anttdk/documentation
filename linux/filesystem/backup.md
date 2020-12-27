@@ -15,6 +15,13 @@ sudo tar czf pi_home.tar.gz pi
 
 This creates a tar archive called `pi_home.tar.gz` in `/home/`. You should copy this file to a USB stick or transfer it to another machine on your network.
 
+## Remove file
+To remove file pi_home.tar.gz use this command from terminal. Because you can not delite it through GUI (no granted permission).
+
+```bash
+sudo rm  pi_home.tar.gz 
+```
+
 ## SD card copier (recommended)
 
 The SD Card Copier application, which can be found on the `Accessories` menu of the Raspberry Pi Desktop, will copy Raspberry Pi OS from one card to another. To use it, you will need a USB SD card writer.
